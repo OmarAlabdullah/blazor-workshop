@@ -4,6 +4,8 @@
 		<TargetFramework>$(TargetFrameworkVersion)</TargetFramework>
 		<ImplicitUsings>true</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<UserSecretsId>d5edc573-0551-4c44-a250-a0424e1cb1cc</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -15,6 +17,7 @@
 		<PackageReference Include="Microsoft.AspNetCore.ApiAuthorization.IdentityServer" Version="$(AspNetCoreVersion)" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="$(EntityFrameworkVersion)" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="$(EntityFrameworkVersion)" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
 		<PackageReference Include="WebPush" Version="1.0.12" />
 	</ItemGroup>
 
